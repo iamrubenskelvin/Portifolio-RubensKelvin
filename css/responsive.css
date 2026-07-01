@@ -1,0 +1,60 @@
+@media (max-width: 980px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-content {
+    align-items: center;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-list {
+    grid-template-columns: 1fr;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu,
+  .btn-cv {
+    display: none;
+  }
+
+  .hero {
+    padding: 120px 20px 60px;
+  }
+
+  .hero h1 {
+    font-size: 54px;
+  }
+
+  .tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width:900px){
+
+.certificates-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}

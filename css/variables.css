@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #05000f;
+  --bg-secondary: #0b0618;
+  --card-color: rgba(16, 10, 32, 0.82);
+
+  --primary: #ff2bd6;
+  --secondary: #ff7a00;
+  --purple: #7c3cff;
+  --blue: #38bdf8;
+  --green: #22c55e;
+
+  --white: #ffffff;
+  --text: #d8d3e8;
+  --text-light: #9c94b8;
+
+  --border: rgba(255, 255, 255, 0.12);
+  --border-neon: rgba(255, 43, 214, 0.45);
+
+  --gradient-main: linear-gradient(135deg, #ff2bd6, #ff3d3d, #ff8a00);
+  --gradient-purple: linear-gradient(135deg, #7c3cff, #ff2bd6);
+  --gradient-card: linear-gradient(
+    145deg,
+    rgba(20, 12, 42, 0.95),
+    rgba(5, 0, 15, 0.95)
+  );
+
+  --shadow-neon: 0 0 35px rgba(255, 43, 214, 0.28);
+  --shadow-orange: 0 0 35px rgba(255, 122, 0, 0.22);
+
+  --radius: 22px;
+  --transition: 0.35s ease;
+}

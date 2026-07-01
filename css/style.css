@@ -1,0 +1,61 @@
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(255, 43, 214, 0.16), transparent 30%),
+    radial-gradient(circle at 80% 30%, rgba(255, 122, 0, 0.14), transparent 28%),
+    radial-gradient(circle at 50% 90%, rgba(124, 60, 255, 0.16), transparent 35%);
+  z-index: -2;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: linear-gradient(to bottom, black, transparent 85%);
+  z-index: -1;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 120px 40px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: var(--transition);
+}
+
+.btn.primary {
+  color: var(--white);
+  background: var(--gradient-main);
+  box-shadow: var(--shadow-neon);
+}
+
+.btn.primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 45px rgba(255, 43, 214, 0.45);
+}
+
+.btn.secondary {
+  color: var(--white);
+  border: 1px solid var(--border-neon);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.btn.secondary:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 43, 214, 0.12);
+}

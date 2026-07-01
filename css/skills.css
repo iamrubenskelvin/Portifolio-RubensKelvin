@@ -1,0 +1,23 @@
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  margin-top: 34px;
+}
+
+.tech-card {
+  background: var(--card-color);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  padding: 26px;
+  text-align: center;
+  font-weight: 800;
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.tech-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--border-neon);
+  box-shadow: var(--shadow-neon);
+}
